@@ -1247,7 +1247,7 @@
                         <div class="exp-item">
                             <div class="exp-dates">2021 — Present</div>
                             <div class="exp-content">
-                                <h4>Staff Nurse — Cairo University Hospital</h4>
+                                <h4>Staff Nurse — Al Mansoura University Hospital</h4>
                                 <p class="muted">Emergency & general ward. Responsibilities: triage, medication
                                     administration, IV access, patient education, documentation, and collaboration with
                                     multidisciplinary teams to ensure comprehensive patient care.</p>
@@ -1360,6 +1360,26 @@
         <section id="contact" class="card reveal">
             <h2>Contact Tasneem</h2>
             <div class="contact-form-container">
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" class="form-control" placeholder="Subject (e.g. Shift request, Inquiry)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" placeholder="Your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <div id="formMsg" class="muted mt-1" aria-live="polite"></div>
+                    </div>
+                </form>
                 <div class="contact-info">
                     <h3>Why Choose Tasneem?</h3>
                     <p class="muted mb-2">Patient-focused care with a track record of positive outcomes. Proven triage
